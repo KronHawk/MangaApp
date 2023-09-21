@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\Projetos\\Projeto Social Media\\MangaLivreWrapper\\MangaLivreWrapper\\MangaLivreWrapper\\MangaLivreWrapper.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\Projetos\\Projeto Social Media\\MangaLivreWrapper\\MangaLivreWrapper\\MangaLivreWrapper\\MangaLivreWrapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\Projetos\\Projeto Social Media\\MangaLivreWrapper\\MangaLivreWrapper\\MangaLivreWrapper\\MangaLivreWrapper.csproj",
+        "projectName": "MangaLivreWrapper",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\Projetos\\Projeto Social Media\\MangaLivreWrapper\\MangaLivreWrapper\\MangaLivreWrapper\\MangaLivreWrapper.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\Projetos\\Projeto Social Media\\MangaLivreWrapper\\MangaLivreWrapper\\MangaLivreWrapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.53, )"
+            },
+            "MangaScrapeLib": {
+              "target": "Package",
+              "version": "[4.7.10, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.12.4, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.12.4, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[117.0.5938.8800, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
